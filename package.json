@@ -1,0 +1,26 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server",
+    "watch:sass": "sass --watch sass/main.scss css/style.css",
+    "start": "npm-run-all --parallel live watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavet13/restaurant-adaptive.git"
+  },
+  "author": "Skinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavet13/restaurant-adaptive/issues"
+  },
+  "homepage": "https://github.com/lavet13/restaurant-adaptive#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.51.0"
+  }
+}

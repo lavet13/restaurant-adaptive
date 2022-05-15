@@ -1,15 +1,15 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 *:focus:not(:focus-visible) {
-  outline: none; 
+  outline: none;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.69445vw;
   font-style: normal;
   font-weight: normal;
@@ -17,18 +17,7 @@ html {
   text-rendering: auto;
   line-height: 1.2;
   margin: 0;
-  padding: 0; 
-}
-
-body {
-  font-style: normal;
-  font-weight: normal;
-  -webkit-animation: bugfix infinite 1s;
-  text-rendering: auto;
-  line-height: 1.2;
-  margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
 }
 
 input,
@@ -36,16 +25,16 @@ textarea {
   -webkit-animation: bugfix infinite 1s;
   line-height: inherit;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 a {
-  color: unset; 
+  color: unset;
 }
 
 a,
 a:hover {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 button,
@@ -55,21 +44,21 @@ textarea {
   outline: none;
   border: none;
   cursor: pointer;
-  font: inherit; 
+  font: inherit;
 }
 
 button:focus,
 input:focus,
 a:focus,
 textarea:focus {
-    outline: none; 
+  outline: none;
 }
 
 button:active,
 input:active,
 a:active,
 textarea:active {
-    outline: none; 
+  outline: none;
 }
 
 h1,
@@ -85,7 +74,7 @@ h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 img {
@@ -99,7 +88,7 @@ button {
   text-align: inherit;
   text-rendering: auto;
   padding: 0;
-  background-color: inherit; 
+  background-color: inherit;
 }
 
 ul {
@@ -110,17 +99,17 @@ ul {
 ul li {
   margin: 0;
   padding: 0;
-  list-style: none; 
+  list-style: none;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
-  margin: 0; 
+  margin: 0;
 }
 
-input[type="number"] {
-  -moz-appearance: textfield; 
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 code,
@@ -130,7 +119,20 @@ samp {
   font-size: inherit;
 }
 
+body {
+  font-style: normal;
+  font-weight: normal;
+  -webkit-animation: bugfix infinite 1s;
+  text-rendering: auto;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
 .container {
   width: 111rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
+
+/*# sourceMappingURL=style.css.map */
