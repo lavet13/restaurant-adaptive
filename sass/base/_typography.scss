@@ -1,11 +1,13 @@
 body {
-    font-style: normal;
-    font-weight: normal;
+    font-family: $font-primary;
+    font-weight: 400;
+    color: $color-black;
+    line-height: 1.2;
+
+    animation: bugfix infinite 1s;
     -webkit-animation: bugfix infinite 1s;
     text-rendering: auto;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
+    
     background-color: #FFFFFF;
 }
 
